@@ -18,7 +18,7 @@ const days = document.querySelector('.bot-days');
 console.log(current_month)
 
 click.addEventListener('click', () => {
-    if (Number(inputs[0].value) >= 29 && Number(inputs[1].value) == 4) { 
+    if (Number(inputs[0].value) >= 29 && Number(inputs[1].value) == 2) { 
         for (let i = 0; i < titles.length; i++) {
             titles[i].setAttribute("style","color:red;");
             inputs[i].setAttribute("style","border: 1.4px solid red");
