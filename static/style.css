@@ -89,7 +89,14 @@ input[type="text"]:focus{
 .bottom .hero{
     color: black;
 }
-
+@media (min-width:350px){
+    .bottom{
+        width: 83%;
+    }
+    .bottom p{
+        font-size: 2.5rem;
+    }
+}
 @media (min-width:660px) {
     .container{
         max-width: 47%;
