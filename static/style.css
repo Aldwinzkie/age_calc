@@ -75,6 +75,16 @@ input[type="text"]:focus{
     min-width: 4.2rem;
     position: relative;
     bottom: 1.9rem;
+    cursor: pointer;
+}
+.middle .arrow:hover {
+    transform: scale(1.1); 
+    transition: .2s;
+}
+
+.middle .arrow:active {
+    filter: brightness(0.8); 
+    transform: scale(0.95);  
 }
 .bottom{
     display: grid;
